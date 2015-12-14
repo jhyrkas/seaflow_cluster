@@ -44,13 +44,13 @@ iters is the number of iterations to run.
 
 Here is an example run:
 
-hadoop jar gmm_general_j6.jar \
-emmapreduce.EMDriver \
-    -libjars Jama-1.0.3.jar \
-    hdfs:///user/root/input/all_files.csv \
-    hdfs:///user/root/input/all_files_filtered \
-    hdfs:///user/root/input/k7_init.txt \
-    hdfs:///user/root/output/ \
+hadoop jar gmm_general_j6.jar 
+emmapreduce.EMDriver 
+    -libjars Jama-1.0.3.jar 
+    hdfs:///user/root/input/all_files.csv 
+    hdfs:///user/root/input/all_files_filtered 
+    hdfs:///user/root/input/k7_init.txt 
+    hdfs:///user/root/output/ 
     7 100
 
 
