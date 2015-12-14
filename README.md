@@ -3,7 +3,7 @@
 This repo contains a Hadoop implementation of Gaussian Mixture Models. It is used to analyze oceanic cytometry
 data from the SeaFlow cytometer.
 
-Initialization:
+<b>Initialization:</b>
 
 The inputs to this Hadoop program are the input data to be classified and the initial parameters.
 The input data is a CSV with the following schema:
@@ -14,12 +14,12 @@ The initial parameters are stored as a CSV of initial cluster points with the fo
 
 Number of dimensions (4), mean per column (4 values), variance matrix (4x4 values).
 
-Generating the initial data:
+<b>Generating the initial data:</b>
 
 
 
 
-Running the pipeline:
+<b>Running the pipeline:</b>
 
 Once the data is ingested into hdfs, the clustering pipeline is run with the following command (as an example):
 
